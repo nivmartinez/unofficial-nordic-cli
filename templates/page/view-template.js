@@ -10,7 +10,7 @@ import injectI18n from 'nordic/i18n/injectI18n';
 function View(props: any) {
   return (
     <Page name="{{name}}" state={...props}>
-      <></>
+      <>{{name}} page works</>
     </Page>
   );
 }

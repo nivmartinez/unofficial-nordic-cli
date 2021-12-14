@@ -37,4 +37,4 @@ use command `generate` to generate files for a nordic page or a react component.
 | ------------ | ------------ | ------------ |
 |  --skip-client | -sk  | not generate the client file  |
 |  --skip-tests | -st  | not generate the test file (.spec)  |
-|  --skip-import | -si  | not add the entry point to webpack.config.js  |
+|  --skip-import | -si  | not add the entry point to webpack.config.js and not modify server index file  |

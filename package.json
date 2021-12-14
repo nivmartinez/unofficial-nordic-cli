@@ -17,6 +17,11 @@
     "meli"
   ],
   "author": "Nivaldo Martinez",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nivmartinez/unofficial-nordic-cli"
+  },
+  "homepage": "https://github.com/nivmartinez/unofficial-nordic-cli#readme",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
@@ -24,8 +29,7 @@
     "commander": "^8.3.0",
     "figlet": "^1.5.2",
     "handlebars": "^4.7.7",
-    "inquirer": "^8.2.0",
-    "minimist": "^1.2.5"
+    "inquirer": "^8.2.0"
   },
   "devDependencies": {
     "standard": "^16.0.4"

@@ -1,0 +1,38 @@
+{
+  "name": "nordic-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for nordic",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nordic": "index.js"
+  },
+  "keywords": [
+    "nordic",
+    "nordic-cli",
+    "cli",
+    "meli"
+  ],
+  "author": "Nivaldo Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "commander": "^8.3.0",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}

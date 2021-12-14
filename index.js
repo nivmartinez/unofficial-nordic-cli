@@ -20,7 +20,7 @@ cli.command('generate')
   .argument('[name]', 'schematic name (optional)')
   .option('-sc, --skip-client', 'Skip generate client file')
   .option('-st, --skip-tests', 'Skip generate test file')
-  .option('-si, --skip-import', 'Skip generate test file')
+  .option('-si, --skip-import', 'Skip modify webpack.config file and server index file')
   .description('generates and/or modifies files based on schematic')
   .action((schematic, name, options) => {
     commands.generate(schematic, name, options)
